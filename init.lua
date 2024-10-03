@@ -104,6 +104,10 @@ vim.g.have_nerd_font = true
 --  Experiment for yourself to see if you like it!
 vim.opt.relativenumber = true
 
+-- no wrap
+-- additional option to wrap after certain length
+vim.opt.wrap = false
+
 -- Enable mouse mode, can be useful for resizing splits for example!
 vim.opt.mouse = 'a'
 

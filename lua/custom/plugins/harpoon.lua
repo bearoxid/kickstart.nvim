@@ -47,8 +47,8 @@ return {
     local function toggle_telescope(harpoon_files)
       local file_paths = {}
       for index, item in ipairs(harpoon_files.items) do
-        --table.insert(file_paths, item.value)
-        table.insert(file_paths, string.format('%d: %s', index, item.value))
+        table.insert(file_paths, item.value)
+        -- table.insert(file_paths, string.format('%d: %s', index, item.value))
       end
 
       require('telescope.pickers')
